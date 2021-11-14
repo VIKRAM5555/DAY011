@@ -1,0 +1,44 @@
+//PROBLEM:11 Create an HTML page, which should contain all types of input elements.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+      <ol> <li><b> <label for ="Company Name"> Company Name</label></b></li>
+        <input type="text" id="Company Name"><br>
+       
+        <input type="radio" name="a" id="PRIVATE LIMITED" value="PRIVATE LIMITED">
+        <label for ="PRIVATE LIMITED"> PRIVATE LIMITED</label><br>
+        <input type="radio" name="a" id="PUBLIC LIMITED" value="PUBLIC LIMITED">
+        <label for ="PUBLIC LIMITED"> PUBLIC LIMITED</label><br><br>
+        
+       <li><b> <label for ="Qualification Required"> Qualification Required</label></b></li>
+        <input type="checkbox" name="a" id="Qualification Required" value="Qualification Required">
+        <label for ="BE CIVIL"> BE/B.Tech</label><br>
+        <input type="checkbox" name="b" id="Qualification Required" value="Qualification Required">
+        <label for ="BE CIVIL"> ME/M.Tech </label><br><br>
+        <li> <b ><label for="birthday">Date of Passing</label></b><br>
+            <input type="date" id="birthday" name="birthday"></li><br><br>
+            <li><b> <label for="browser">Choose your Location</label></b><br>
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                  <option value="Chennai">
+                  <option value="Banglore">
+                  <option value="Hyderabed">
+                  <option value="Mumbai">
+                  <option value="Delhi">
+                </datalist></li><br><br>
+                <li><b>    <label for ="ADD FILE"> ADD FILE</label></b></li> 
+                <input type="file" name="b" id="file" value="file"><br><br>
+            
+               <b> <input type="SUBMIT" name="b" id="SUBMIT" value="SUBMIT"></b>
+        
+    </ol>
+    </form>
+</body>
+</html>
